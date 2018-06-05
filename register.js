@@ -1,6 +1,5 @@
 var AWS = require('aws-sdk');
 AWS.config.region = 'ap-northeast-1';
-
 var crypto = require('crypto');
 var endpoint = "<endpoint prefix>.iot.<region>.amazonaws.com";
 var iot = new AWS.Iot();
