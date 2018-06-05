@@ -31,4 +31,4 @@ The JSON format for the new IOT devices ready for activation will be like below
   
   The API end point would be like
   
-  End point:https://test001.execute-api.ap-northeast-1.amazonaws.com/activate
+  End point:https://test001.execute-api.ap-northeast-1.amazonaws.com/activate[Sample End point]
