@@ -1,4 +1,11 @@
 # awsiotproject
+
+The building of server less back end for IOT Project would require following
+
+1>Creating Lambda functions
+2>Creating DynamoDB tables
+
+
 Registration JSON would be like below
 
 {
@@ -24,4 +31,4 @@ The JSON format for the new IOT devices ready for activation will be like below
   
   The API end point would be like
   
-  End point:https://<prefix>.execute-api.<region>.amazonaws.com/activate
+  End point:https://test001.execute-api.ap-northeast-1.amazonaws.com/activate
