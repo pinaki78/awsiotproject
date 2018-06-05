@@ -38,7 +38,7 @@ for(var i = 1; i < n+1; i++) {
     if (err) console.log(err, err.stack); // an error occurred
     // else Published Successfully!
   });
-  setTimeout(function(){},50);
+  setTimeout(function(){},n);
 }
 
 //Checking all devices were created
@@ -52,8 +52,8 @@ iot.listThings().on('success', function(response) {
     }
   }
 
-  if (myThings.length = 50){
-    console.log("myThing1 to 50 created and registered!");
+  if (myThings.length = n){
+    console.log("myThing1 to n created and registered!");
   }
 }).on('error', function(response) {
   console.log(response);
