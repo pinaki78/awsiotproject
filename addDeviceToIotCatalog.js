@@ -3,6 +3,8 @@ var AWS = require('aws-sdk');
 var dynamo = new AWS.DynamoDB.DocumentClient();
 var table = "iotCatalog";
 
+//Lambda function-1
+
 exports.handler = function(event, context) {
     //console.log('Received event:', JSON.stringify(event, null, 2));
    var params = {
